@@ -1,4 +1,4 @@
-const THREE = require('./three');
+import * as THREE from 'three';
 
 let scene;
 let camera;
@@ -35,7 +35,18 @@ let createACube = function () {
 let animateCube = function () {
     // cube.rotation.x += 0.01;
     cube.rotation.y += 0.01;
-    console.log(cube.rotation);
+    // console.log(cube.rotation);
 };
+
+let object = function() {
+    const loader = new THREE.ObjectLoader();
+
+    loader.load(
+        "models/jorge.obj",
+        function(obj) {
+            
+        }
+    );
+}
 
 init();

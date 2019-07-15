@@ -5,7 +5,9 @@
   "main": "index.js",
   "author": "Jorge Rodrigues",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "three": "^0.106.2"
+  },
   "devDependencies": {
     "@babel/core": "^7.5.4",
     "@babel/preset-env": "^7.5.4",
