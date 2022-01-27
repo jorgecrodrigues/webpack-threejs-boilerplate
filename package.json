@@ -6,7 +6,7 @@
   "author": "Jorge Rodrigues",
   "license": "MIT",
   "dependencies": {
-    "three": "^0.106.2"
+    "three": "^0.137.0"
   },
   "devDependencies": {
     "@babel/core": "^7.5.4",
